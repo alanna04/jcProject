@@ -1,0 +1,262 @@
+/*
+Theme Name: JCIDM
+Theme URI: https://www.jcidm.com/
+Author: JCIDM
+Author URI: https://www.jcidm.com
+Version: 2.15
+License URI: https://www.jcidm.com
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+input, textarea {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;	
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+a#logo {
+   float: left;
+    padding: 25px 0;
+}
+
+.googlemap {
+    position: relative;
+    padding: 0;
+    height: 350px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.googlemap iframe {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border: none;
+}
+
+.featured-interior {
+	position: relative;
+    padding: 4px;
+    margin: 0 0 20px 0;
+    background: whitesmoke;
+    border: 1px solid #d5e0e5;
+    -webkit-box-shadow: 0 10px 6px -6px #0000001c;
+    -moz-box-shadow: 0 10px 6px -6px #0000001c;
+    box-shadow: 0 10px 6px -6px #0000001c;
+}
+
+a.interior-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    max-width: 340px;
+    background: #33B2FF;
+    text-align: center;
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 10px 6px -6px #0000001c;
+    -moz-box-shadow: 0 10px 6px -6px #0000001c;
+    box-shadow: 0 10px 6px -6px #0000001c;
+    -webkit-animation: btnWiggle 4s infinite;
+    -moz-animation: btnWiggle 4s infinite;
+    -o-animation: btnWiggle 4s infinite;
+    animation: btnWiggle 4s infinite;
+}
+
+a.interior-btn i {
+    margin-right: 6px;
+}
+
+a.interior-btn span {
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+a.interior-btn:hover {
+    color: #000;
+    background: #33B2FF;
+    text-decoration: none;	
+}
+
+/*home page slide show */
+.slide-text{
+	font-family: 'Noto Serif', serif;
+	font-size: 2.9em;
+	color: whitesmoke;	
+}
+
+.slider-cta-button{
+	margin-top: 20px;
+	color: whitesmoke !important;
+	background-color: #1e87f0 !important;
+}
+
+/*paragraphs & headings */
+
+h1{
+	font-family: 'Noto Serif', serif;
+	font-size: 2.9em;
+	color: #47494B;
+	
+}
+h2, h3, h4, h5, h6{
+	/*padding-top: 20px;
+	padding-left: 50px; */
+	font-family: 'Noto Serif', serif;
+	color: #47494B;
+	font-size: 2.5em;
+	border-left: 1rem solid #0050AB;
+	padding-left: 5px;
+	
+}
+
+.welcome-title{
+	font-family: 'Noto Serif', serif;
+	font-size: 2.5em;
+	text-decoration: underline #0050AB ;
+}
+
+p{
+	/*padding: 10px 50px 10px 50px; */
+	
+}
+
+.p-home
+{
+	padding: 5px 50px 10px 50px;
+	
+}
+
+.health-plan-secton{
+	font-family: 'Noto Serif', serif;
+	font-size: 2.5em;
+	color: white;
+}
+
+#title{
+	font-size: 3.1rem;
+	font-family: 'Noto Serif', serif;
+	margin-bottom: -20px;
+	color: #47494B;
+	text-decoration: underline #0050AB ;
+}
+.questions-section-title{
+	font-family: 'Noto Serif', serif;
+	font-size: 2.5em;
+	text-decoration: underline #0050AB ;
+}
+
+/*cta section */
+.cta-section{
+	border-bottom: 3px solid #0D3B6C;
+	border-top: 3px solid #0D3B6C;
+}
+
+#cta-home{
+	font-size: 3rem;
+	margin-top: -20px;
+	color: #ffffff;
+	text-align: center;
+	/*color: #5380B1; */
+}
+
+/*icons */
+
+.social-icons {
+	list-style-type: none;
+	color: white;
+	text-align: right;
+	
+}
+
+.social-icons li{
+	 display: inline-block;
+	 padding: 25px 10px;
+}
+
+.plan-icon{
+    color: #1e87f0 !important;
+	font-size: 3.5rem;
+	align-content: center !important;
+	margin-top: -25px;
+	
+}
+
+/*
+Container Wrap
+ */
+.c-wrap{
+	background-color: #ffffff;
+}
+/*Personalized Plans Section */
+
+.plan-section{
+	border-bottom: 3px solid #0D3B6C;
+	/*border-top: 3px solid #0D3B6C; */
+}
+
+.card-style{
+	border: 3px solid #0D3B6C;
+	border-radius: 10px;
+}
+
+.pt-photo{
+	border-bottom: 10px solid #e0e0e0;
+}
+
+/* Natural Pain Relief Section */
+
+.npr-section{
+border-bottom: 3px solid #0D3B6C;	
+background-color: red;
+background: url(/wp-content/uploads/bkg5.jpg);
+}
+
+/*questions section */
+
+.questions-section
+{
+	border-bottom: 3px solid #0D3B6C;	
+	border-top: 3px solid #0D3B6C;
+}
+
+footer {
+	padding: 30px 0;	
+    background: #e0e0e0;
+}
+
+.footer-info {
+	float: left;
+}
+
+a#seo {
+    display: block;
+    float: right;
+}
+
+.copyright-footer {
+	padding: 10px 0;
+	text-align: center;
+    background: #d8d8d8;
+}
