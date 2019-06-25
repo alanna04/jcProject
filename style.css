@@ -33,9 +33,10 @@ a#logo {
 }
 
 .googlemap {
-    position: relative;
-    padding: 0;
-    height: 350px;
+  position: relative; 
+    padding-top: 20px;
+    height: 200px;
+	width: 350px;
     overflow: hidden;
     max-width: 100%;
     margin: 20px auto;
@@ -241,13 +242,44 @@ background: url(/wp-content/uploads/bkg5.jpg);
 	border-top: 3px solid #0D3B6C;
 }
 
+/*our team section */
+#our-team{
+	font-size: 2.3rem;
+	margin-top: 20px;
+	color: #0D3B6C;	
+	text-align: center;
+	/*color: #5380B1; */
+}
+
+.staff-title{
+	font-size: 1.9rem;
+	font-family: 'Noto Serif', serif;
+	margin-bottom: 5px;
+	color: #47494B;
+	text-decoration: underline #0050AB ;
+}
+
+/*footer styles */
 footer {
 	padding: 30px 0;	
-    background: #e0e0e0;
+    background: #0D3B6C;
 }
 
 .footer-info {
 	float: left;
+}
+
+.hours  {
+	list-style-type: none;
+	color: white;
+}
+
+.hours li{
+	padding-bottom: 10px;
+}
+
+.white-white-baby{
+	color: #ffffff;
 }
 
 a#seo {
@@ -258,5 +290,5 @@ a#seo {
 .copyright-footer {
 	padding: 10px 0;
 	text-align: center;
-    background: #d8d8d8;
+    background: #0D3B6C;
 }
